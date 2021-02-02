@@ -1,8 +1,6 @@
 # ATIFlash/ATI WinFlash v2.93
 
 
-If you don't trust the EXE just build on Linux with ```sh build.sh```. Quick and easy.
-
 ### Important: You need to disable SecureBoot / Activate CSM in your
 ### Motherboard UEFI because the modification will make
 ### the cryptographic signature invalid.
@@ -49,11 +47,6 @@ Ubuntu 16.04.2:
 sudo apt-get install mono-complete
 ```
 
-Arch Linux:
-
-```
-yaourt -Sy mono48
-```
 ### Building
 
 ```
