@@ -38,7 +38,6 @@ please build the executable yourself or decompile the existing one if you don't 
 
 ### v2.0.1.14
 - Added New timing for Hynix.
-- Added Clock Stretch Amount.
 - Added option for choosing timings on hynix Between Universal Hynix timing and Good hynix timing.
 - Universal Hynix timing work on: H5GC8H24MJ, H5GQ8H24MJ, H5GQ4H24AJ.
 
