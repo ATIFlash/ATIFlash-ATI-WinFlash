@@ -19,35 +19,27 @@ one click timing feature should be used with care, it maybe not stable for you
 
 please build the executable yourself or decompile the existing one if you don't trust
 ### v2.93
-- Added UberMix 3.3
-- Few small changes in code
+- Added support for BIOS Navi Radeon RX 5700 Series firmware.
 ### v2.84
-- Fixed bug no supported memory found (K4G80325FC)
-- Old version bump in properties
+- Fixed issue with launching Build 1803 on Windows 10.
 ### v2.77
-- Added support for memory Samsung K4G80325FC
-- Added new device AMD Radeon RX 580 2048SP - 6FDF
+- Added support for Radeon RX Vega series cards.
 ### v2.71
-- Fixed apply timings for Hynix memory
-- Added support for RX590
-- Added support for New Hynix memory H5GC8H24AJ
-- Added timing for New Hynix H5GC8H24AJ
-
+- Added support for AMD Fiji.
 ### v2.0.1.18
-- Updated Elpida Timing
+- Fixed a bug that made it impossible to read a BIOS file with a two-character extension in the name.
+Added support for a number of ROM chips.
+- Fixed checksum error when flashing boards with ISR already enabled.
+- Fixed issues when flashing cards based on GPU Pitcarin.
 
 ### v2.0.1.14
-- Added New timing for Hynix.
-- Added option for choosing timings on hynix Between Universal Hynix timing and Good hynix timing.
-- Universal Hynix timing work on: H5GC8H24MJ, H5GQ8H24MJ, H5GQ4H24AJ.
+- Added function to save ISR data after flashing.
+- Added command line parameter caymandualrom = true / false.
+- Improved support for new video cards based on the Cayman chip (including the Radeon HD 6990).
 
 ### v2.0.1.13
-- Fixed UI (updated design)
-- Fixed and Updated all Timing's
-- Added New strap for Micron and Hynix
-- Added option for choosing timings on samsung between uber-mix 3.1 and 3.2, and on Micron between Good Micron timing and S Micron timing.
-- Added Icon
-- Added option for max. Mem. freq. (after one click timing patch button click automatically change max. mem. to 2300 MHz)
+- Added support for Radeon HD 6850 / HD 6870 (Barts) and Radeon HD 6950 / HD 6970 (Cayman).
+- Bug fixed — the last 2 digits of the new P / N format of HD 6850 and HD 6870 video cards (Barts) were not displayed.
 
 Contribution from Sebohe:
 
