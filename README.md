@@ -1,5 +1,45 @@
 # ATIFlash/ATI WinFlash v2.93
 
+## ATIFLASH is used to flash the BIOS of the video card.
+
+It supports all **AMD Radeon** graphics cards like **RX 5700, RX 5600, RX 5500.** You can also flash **BIOS** for all **AMD Radeon RX Vega, RX 580, RX 480** and all old **ATI** cards.
+
+**ATIFlash 2.93** is not intended for **DOS** use. The latest **DOS** version can be found on the **ATIFlash** for **DOS** page
+
+Atiwinflash has a very simple and user-friendly interface.
+
+![ati](https://atiflash.eu/wp-content/uploads/2020/12/screenshot_3.png)
+
+## Using the GUI in Atiwinflash
+
+### The program must be run as administrator!
+
+After starting the program, the panel opens
+
+![ati](https://atiflash.eu/wp-content/uploads/2020/12/screenshot_4.png)
+
+- The area in which you can select the video card with which you will work, as well as information about the available video cards, is highlighted in red.
+- The blue arrow points to the button through which you select the BIOS you need
+- The yellow arrow points to the button that is responsible for starting the firmware (after pressing the program, we will start flashing the BIOS)
+- The red arrow shows the button with which you save the factory BIOS, or the one you have already installed.
+
+## ATIFlash firmware via command line
+
+![ati](https://atiflash.eu/wp-content/uploads/2020/12/jctyybtvmnk.jpg)
+
+### The most useful ATIFlash commands are:
+
+- atiflash.exe -i — will show the list of video cards installed in the AMD system. Useful for flashing the BIOS on a specific video card.
+- atiflash.exe -p <video card number> <file name> — flash the video card with the specified BIOS number from the specified file.
+- atiflash.exe -pa <file name> — flash to ALL video cards with the specified BIOS file.
+  
+### Examples of using:
+
+- The system has a single AMD graphics card. In this case, everything is simple — we indicate the flashing of all card cards in the system using a file with a modified BIOS (let’s say it is called BIOS_mod_470.rom):
+- AtiFlash.exe -pa BIOS_mod_470.rom
+- The system has two different video cards — AMD Radeon R9 390 and AMD Radeon RX 470, you need to flash the BIOS only on RX 470:
+- We launch the program with the -i parameter and look at the list of video cards in the system. We remember the number of the RX 470 video card.
+- AtiFlash.exe -i
 
 ### Important: You need to disable SecureBoot / Activate CSM in your
 ### Motherboard UEFI because the modification will make
